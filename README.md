@@ -1,2 +1,0 @@
-# coursera-Angular
-neuer Angularkurs
