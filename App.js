@@ -19,7 +19,7 @@
       if (chars != "") {
         var lastCheck = false;
         for(var i = 0; i < chars.length ; i++) {
-          if(chars[i] == ',') {
+          if(chars[i] == "," || chars[i] == " " ) {
             if(lastCheck == false) {
               CountComma += 1;
               lastCheck = true;
